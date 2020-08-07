@@ -40,18 +40,20 @@ def exist(board, word):
             except IndexError:
                 continue
 
-    print(curr_word)
     return curr_word == word
 
 
-board1 = [
-    ['A', 'B', 'C', 'E'],
-    ['S', 'F', 'C', 'S'],
-    ['A', 'D', 'E', 'E']
-]
-board2 = [
-    ['D', 'A'],
-    ['O', 'G']
-]
+# board1 = [
+#     ['A', 'B', 'C', 'E'],
+#     ['S', 'F', 'C', 'S'],
+#     ['A', 'D', 'E', 'E']
+# ]
+# board2 = [
+#     ['D', 'A'],
+#     ['O', 'G']
+# ]
 
-print(exist(board1, 'SEE'))
+# print(exist(board1, 'SEE'))  # -> True    (works)
+# print(exist(board1, 'EEDA'))  # -> True      (not working)
+# print(exist(board2, "DOG"))  # -> True       (works)
+# print(exist(board2, "GOD"))  # -> True       (works)
