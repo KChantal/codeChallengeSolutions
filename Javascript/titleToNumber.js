@@ -2,10 +2,10 @@
 
 const titleToNumber = (s) => {
   let sum = 0;
+  const len = s.length;
 
-  for (let i = 0; i < s.length; i++) {
-    console.log(s.length - i - 1);
-    const letterCode = (s[i].charCodeAt(0) - 64) * 26 ** (s.length - i - 1);
+  for (let i = 0; i < len; i++) {
+    const letterCode = (s[i].charCodeAt(0) - 64) * 26 ** (len - i - 1);
     sum += letterCode;
   }
 
