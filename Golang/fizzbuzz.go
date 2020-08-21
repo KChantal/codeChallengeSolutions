@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Println("Please enter a number: ")
+// func main() {
+// 	fmt.Println("Please enter a number: ")
 
-	var num int
-	fmt.Scanln(&num)
+// 	var num int
+// 	fmt.Scanln(&num)
 
-	fizzBuzz(num)
-}
+// 	fizzBuzz(num)
+// }
 
 func fizzBuzz(n int) {
 
