@@ -13,6 +13,6 @@ const findMissingNumber = (arr) => {
   return lowest > 1 ? lowest : 1;
 };
 
-console.log(findMissingNumber([1, 2, 3, 5])); // 4
-console.log(findMissingNumber([1, 1, 3, 6, 4, 1, 2])); // 5
-console.log(findMissingNumber([1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12])); // 9
+// console.log(findMissingNumber([1, 2, 3, 5])); // 4
+// console.log(findMissingNumber([1, 1, 3, 6, 4, 1, 2])); // 5
+// console.log(findMissingNumber([1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12])); // 9
