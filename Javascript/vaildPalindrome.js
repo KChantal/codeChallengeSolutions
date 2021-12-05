@@ -11,10 +11,3 @@ const isPalindrome = (str) => {
 
   return reversed === unreversed;
 };
-
-const str1 = "A man, a plan, a canal: Panama";
-const str2 = "Two wonderful dogs!";
-
-// console.log(isPalindrome(str1));
-// console.log(isPalindrome(str2));
-// console.log(isPalindrome("ab_a"));
